@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>PAGINA WEB COMPLETO</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <section class="banner" id="sec">
+      <header>
+          <a href="#" class="logo">logo</a>
+          <div id="toggle" onclick="toggle()"></div>
+          
+      </header>
+      <div class="content">
+          <h2>HOLA MUNDO ASIATICO <br>yo soy <span> BAUDILIO HERNANDEZ</span></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi repellendus accusantium ut corporis magni, aut aliquam eius reiciendis eum nostrum modi quis, eveniet optio sed dicta esse veritatis doloribus sit?</p>
+          <a href="#">SABER MAS</a>
+          
+      </div>
+      <ul class="sci">
+          <li><a href="#"><img src="img/facebook.png" alt=""></a></li>
+          <li><a href="#"><img src="img/twitter.png" alt=""></a></li>
+          <li><a href="#"><img src="img/linkedin.png" alt=""></a></li>
+      </ul>
+      
+  </section>
+  <div id="navigation">
+      <ul>
+          <li><a href="#">inicio</a></li>
+          <li><a href="#">nosotros</a></li>
+          <li><a href="#">servicios</a></li>
+          <li><a href="#">portafolio</a></li>
+          <li><a href="#">equipo</a></li>
+          <li><a href="#">contacto</a></li>
+      </ul>
+  </div>
+  <script  type="text/javascript">
+    function toggle(){
+        var sec = document.getElementById('sec');
+        var nav = document.getElementById('navigation');
+        sec.classList.toggle('active')
+        nav.classList.toggle('active');
+        
+    }
+      
+    </script>
+   
+    
+</body>
+</html>
